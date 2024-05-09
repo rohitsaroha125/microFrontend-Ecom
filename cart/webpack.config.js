@@ -16,6 +16,11 @@ module.exports = {
       exposes: {
         "./CartPage": "./src/index.js",
       },
+      shared: {
+        faker: {
+          singleton: true,
+        },
+      },
     }),
   ],
 };

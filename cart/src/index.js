@@ -1,1 +1,1 @@
-console.log("Cart Page Added");
+import("./bootstrap");
